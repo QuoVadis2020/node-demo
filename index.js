@@ -15,7 +15,7 @@ module.exports.clear = async () => {
 
 function markAskDone(list, index) {
   list[index].done = true;
-  db.write(list);￿
+  db.write(list);
 }
 
 function markAsUndone(list, index) {
