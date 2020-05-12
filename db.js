@@ -26,7 +26,6 @@ const db = {
       fs.writeFile(path, string + '\n', (error) => {
         if (error) return reject(error);
         resolve();
-
       });
     });
   }
